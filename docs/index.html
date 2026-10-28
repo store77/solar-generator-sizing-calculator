@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WattGuard300 - Solar Generator, LiFePO4 Battery & Home Backup Power Sizing Calculators</title>
+    <meta name="description" content="Calculate exact Watt-Hour (Wh) battery capacity, inverter surge wattage, and solar panel array sizes for home backup appliances, RV air conditioners, sump pumps, and refrigerators.">
+    <link rel="canonical" href="https://store77.github.io/solar-generator-sizing-calculator/">
+    <style>
+        :root { --bg: #090e17; --panel: #111827; --border: #1f2937; --text: #f8fafc; --muted: #94a3b8; --amber: #f59e0b; --green: #10b981; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        header { background: #030712; border-bottom: 1px solid var(--border); padding: 36px 20px; text-align: center; }
+        header h1 { font-size: 2.1rem; margin-bottom: 8px; }
+        header h1 span { color: var(--amber); }
+        header p { color: var(--muted); max-width: 720px; margin: 0 auto 20px; }
+        #searchBox { width: 100%; max-width: 560px; padding: 13px 16px; border-radius: 8px; border: 1px solid var(--border); background: #090e17; color: #fff; font-size: 1rem; }
+        .container { max-width: 1120px; margin: 36px auto; padding: 0 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
+        .item-card { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 20px; transition: transform 0.15s, border-color 0.15s; }
+        .item-card:hover { transform: translateY(-4px); border-color: var(--amber); }
+        .item-top { display: flex; justify-content: space-between; font-size: 0.76rem; margin-bottom: 8px; }
+        .item-cat { color: var(--amber); font-weight: 700; text-transform: uppercase; }
+        .item-wh { color: var(--green); font-weight: 700; }
+        .item-card h2 { font-size: 1.15rem; margin-bottom: 8px; color: #fff; }
+        .item-meta { font-size: 0.84rem; color: var(--muted); margin-bottom: 12px; }
+        .item-cta { font-size: 0.86rem; color: var(--amber); font-weight: 700; }
+        .combo-wrap { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+        .combo-pill { background: var(--panel); border: 1px solid var(--border); color: var(--text); text-decoration: none; padding: 8px 14px; border-radius: 8px; font-size: 0.84rem; }
+        .combo-pill:hover { border-color: var(--amber); }
+        footer { text-align: center; padding: 40px 20px; color: var(--muted); font-size: 0.82rem; border-top: 1px solid var(--border); margin-top: 60px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Watt<span>Guard</span>300 Solar & Backup Matrix</h1>
+        <p>Automated Watt-Hour (Wh) Runtime Calculators, Surge Load Sizing & Best-Selling $300+ LiFePO4 Solar Generator Finder</p>
+        <input type="text" id="searchBox" placeholder="Search appliance (e.g. Refrigerator, Sump Pump, CPAP, RV AC, Well Pump, Starlink)..." onkeyup="filterLoads()">
+    </header>
+    <main class="container">
+        <div class="grid" id="loadsGrid">
+            
+        <article class="item-card">
+            <a href="https://store77.github.io/solar-generator-sizing-calculator/calculators/best-solar-generator-portable-power-station-for-full-size-kitchen-refrigerator-25-cu-ft.html" style="text-decoration:none;color:inherit;">
+                <div class="item-top">
+                    <span class="item-cat">Home Outage Essential</span>
+                    <span class="item-wh">2550 Wh Min</span>
+                </div>
+                <h2>Full-Size Kitchen Refrigerator (25 Cu. Ft.)</h2>
+                <p class="item-meta">Running: 180W &bull; Surge: 1200W &bull; Solar: 900W</p>
+                <span class="item-cta">Open Sizing Calculator & $300+ Best-Sellers &rarr;</span>
+            </a>
+        </article>
+        
+        <article class="item-card">
+            <a href="https://store77.github.io/solar-generator-sizing-calculator/calculators/best-solar-generator-portable-power-station-for-1-2-hp-basement-sump-pump.html" style="text-decoration:none;color:inherit;">
+                <div class="item-top">
+                    <span class="item-cat">Flood & Storm Protection</span>
+                    <span class="item-wh">6200 Wh Min</span>
+                </div>
+                <h2>1/2 HP Basement Sump Pump</h2>
+                <p class="item-meta">Running: 1050W &bull; Surge: 2400W &bull; Solar: 1600W</p>
+                <span class="item-cta">Open Sizing Calculator & $300+ Best-Sellers &rarr;</span>
+            </a>
+        </article>
+        
+        <article class="item-card">
+            <a href="https://store77.github.io/solar-generator-sizing-calculator/calculators/best-solar-generator-portable-power-station-for-3-4-hp-heavy-duty-sump-pump.html" style="text-decoration:none;color:inherit;">
+                <div class="item-top">
+                    <span class="item-cat">Flood & Storm Protection</span>
+                    <span class="item-wh">7650 Wh Min</span>
+                </div>
+                <h2>3/4 HP Heavy-Duty Sump Pump</h2>
+                <p class="item-meta">Running: 1300W &bull; Surge: 3100W &bull; Solar: 1600W</p>
+                <span class="item-cta">Open Sizing Calculator & $300+ Best-Sellers &rarr;</span>
+            </a>
+        </article>
+        
+        <article class="item-card">
+            <a href="https://store77.github.io/solar-generator-sizing-calculator/calculators/best-solar-generator-portable-power-station-for-cpap-machine-with-heated-humidifier-tube.html" style="text-decoration:none;color:inherit;">
+                <div class="item-top">
+                    <span class="item-cat">Medical Night Backup</span>
+                    <span class="item-wh">1400 Wh Min</span>
+                </div>
+                <h2>CPAP Machine with Heated Humidifier & Tube</h2>
+                <p class="item-meta">Running: 65W &bull; Surge: 110W &bull; Solar: 500W</p>
+                <span class="item-cta">Open Sizing Calculator & $300+ Best-Sellers &rarr;</span>
+            </a>
+        </article>
+        
+        <article class="item-card">
+            <a href="https://store77.github.io/solar-generator-sizing-calculator/calculators/best-solar-generator-portable-power-station-for-13-500-btu-rv-rooftop-air-conditioner.html" style="text-decoration:none;color:inherit;">
+                <div class="item-top">
+                    <span class="item-cat">RV & Overlanding Climate</span>
+                    <span class="item-wh">9200 Wh Min</span>
+                </div>
+                <h2>13,500 BTU RV Rooftop Air Conditioner</h2>
+                <p class="item-meta">Running: 1350W &bull; Surge: 3000W &bull; Solar: 1600W</p>
+                <span class="item-cta">Open Sizing Calculator & $300+ Best-Sellers &rarr;</span>
+            </a>
+        </article>
+        
+        <article class="item-card">
+            <a href="https://store77.github.io/solar-generator-sizing-calculator/calculators/best-solar-generator-portable-power-station-for-15-000-btu-rv-heat-pump-air-conditioner.html" style="text-decoration:none;color:inherit;">
+                <div class="item-top">
+                    <span class="item-cat">RV & Overlanding Climate</span>
+                    <span class="item-wh">10550 Wh Min</span>
+                </div>
+                <h2>15,000 BTU RV Heat Pump Air Conditioner</h2>
+                <p class="item-meta">Running: 1550W &bull; Surge: 3400W &bull; Solar: 1600W</p>
+                <span class="item-cta">Open Sizing Calculator & $300+ Best-Sellers &rarr;</span>
+            </a>
+        </article>
+        
+        <article class="item-card">
+            <a href="https://store77.github.io/solar-generator-sizing-calculator/calculators/best-solar-generator-portable-power-station-for-10-000-btu-portable-dual-hose-room-air-conditioner.html" style="text-decoration:none;color:inherit;">
+                <div class="item-top">
+                    <span class="item-cat">Summer Heatwave Backup</span>
+                    <span class="item-wh">7200 Wh Min</span>
+                </div>
+                <h2>10,000 BTU Portable Dual-Hose Room Air Conditioner</h2>
+                <p class="item-meta">Running: 980W &bull; Surge: 1850W &bull; Solar: 1600W</p>
+                <span class="item-cta">Open Sizing Calculator & $300+ Best-Sellers &rarr;</span>
+            </a>
+        </article>
+        
+        <article class="item-card">
+            <a href="https://store77.github.io/solar-generator-sizing-calculator/calculators/best-solar-generator-portable-power-station-for-deep-chest-freezer-15-cu-ft.html" style="text-decoration:none;color:inherit;">
+                <div class="item-top">
+                    <span class="item-cat">Food Preservation Backup</span>
+                    <span class="item-wh">2650 Wh Min</span>
+                </div>
+                <h2>Deep Chest Freezer (15 Cu. Ft.)</h2>
+                <p class="item-meta">Running: 120W &bull; Surge: 950W &bull; Solar: 900W</p>
+                <span class="item-cta">Open Sizing Calculator & $300+ Best-Sellers &rarr;</span>
+            </a>
+        </article>
+        
+        <article class="item-card">
+            <a href="https://store77.github.io/solar-generator-sizing-calculator/calculators/best-solar-generator-portable-power-station-for-starlink-high-performance-dish-home-office-setup.html" style="text-decoration:none;color:inherit;">
+                <div class="item-top">
+                    <span class="item-cat">Remote Work & Off-Grid Comms</span>
+                    <span class="item-wh">2600 Wh Min</span>
+                </div>
+                <h2>Starlink High-Performance Dish + Home Office Setup</h2>
+                <p class="item-meta">Running: 165W &bull; Surge: 260W &bull; Solar: 900W</p>
+                <span class="item-cta">Open Sizing Calculator & $300+ Best-Sellers &rarr;</span>
+            </a>
+        </article>
+        
+        <article class="item-card">
+            <a href="https://store77.github.io/solar-generator-sizing-calculator/calculators/best-solar-generator-portable-power-station-for-1-2-hp-submersible-deep-well-water-pump.html" style="text-decoration:none;color:inherit;">
+                <div class="item-top">
+                    <span class="item-cat">Off-Grid Homestead Water</span>
+                    <span class="item-wh">6950 Wh Min</span>
+                </div>
+                <h2>1/2 HP Submersible Deep Well Water Pump</h2>
+                <p class="item-meta">Running: 1100W &bull; Surge: 2800W &bull; Solar: 1600W</p>
+                <span class="item-cta">Open Sizing Calculator & $300+ Best-Sellers &rarr;</span>
+            </a>
+        </article>
+        
+        </div>
+        <h2 style="font-size:1.4rem;margin:42px 0 12px;border-left:4px solid var(--amber);padding-left:12px;">Multi-Appliance Emergency Backup Sizing Guides</h2>
+        <div class="combo-wrap">
+            <a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-full-size-kitchen-refrigerator-25-cu-ft-and-1-2-hp-basement-sump-pump.html" class="combo-pill">Full-Size Kitchen Refrigerator (25 Cu. Ft.) + 1/2 HP Basement Sump Pump &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-full-size-kitchen-refrigerator-25-cu-ft-and-3-4-hp-heavy-duty-sump-pump.html" class="combo-pill">Full-Size Kitchen Refrigerator (25 Cu. Ft.) + 3/4 HP Heavy-Duty Sump Pump &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-full-size-kitchen-refrigerator-25-cu-ft-and-cpap-machine-with-heated-humidifier-tube.html" class="combo-pill">Full-Size Kitchen Refrigerator (25 Cu. Ft.) + CPAP Machine with Heated Humidifier & Tube &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-full-size-kitchen-refrigerator-25-cu-ft-and-13-500-btu-rv-rooftop-air-conditioner.html" class="combo-pill">Full-Size Kitchen Refrigerator (25 Cu. Ft.) + 13,500 BTU RV Rooftop Air Conditioner &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-full-size-kitchen-refrigerator-25-cu-ft-and-15-000-btu-rv-heat-pump-air-conditioner.html" class="combo-pill">Full-Size Kitchen Refrigerator (25 Cu. Ft.) + 15,000 BTU RV Heat Pump Air Conditioner &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-full-size-kitchen-refrigerator-25-cu-ft-and-10-000-btu-portable-dual-hose-room-air-conditioner.html" class="combo-pill">Full-Size Kitchen Refrigerator (25 Cu. Ft.) + 10,000 BTU Portable Dual-Hose Room Air Conditioner &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-full-size-kitchen-refrigerator-25-cu-ft-and-deep-chest-freezer-15-cu-ft.html" class="combo-pill">Full-Size Kitchen Refrigerator (25 Cu. Ft.) + Deep Chest Freezer (15 Cu. Ft.) &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-full-size-kitchen-refrigerator-25-cu-ft-and-starlink-high-performance-dish-home-office-setup.html" class="combo-pill">Full-Size Kitchen Refrigerator (25 Cu. Ft.) + Starlink High-Performance Dish + Home Office Setup &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-full-size-kitchen-refrigerator-25-cu-ft-and-1-2-hp-submersible-deep-well-water-pump.html" class="combo-pill">Full-Size Kitchen Refrigerator (25 Cu. Ft.) + 1/2 HP Submersible Deep Well Water Pump &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-1-2-hp-basement-sump-pump-and-3-4-hp-heavy-duty-sump-pump.html" class="combo-pill">1/2 HP Basement Sump Pump + 3/4 HP Heavy-Duty Sump Pump &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-1-2-hp-basement-sump-pump-and-cpap-machine-with-heated-humidifier-tube.html" class="combo-pill">1/2 HP Basement Sump Pump + CPAP Machine with Heated Humidifier & Tube &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-1-2-hp-basement-sump-pump-and-13-500-btu-rv-rooftop-air-conditioner.html" class="combo-pill">1/2 HP Basement Sump Pump + 13,500 BTU RV Rooftop Air Conditioner &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-1-2-hp-basement-sump-pump-and-15-000-btu-rv-heat-pump-air-conditioner.html" class="combo-pill">1/2 HP Basement Sump Pump + 15,000 BTU RV Heat Pump Air Conditioner &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-1-2-hp-basement-sump-pump-and-10-000-btu-portable-dual-hose-room-air-conditioner.html" class="combo-pill">1/2 HP Basement Sump Pump + 10,000 BTU Portable Dual-Hose Room Air Conditioner &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-1-2-hp-basement-sump-pump-and-deep-chest-freezer-15-cu-ft.html" class="combo-pill">1/2 HP Basement Sump Pump + Deep Chest Freezer (15 Cu. Ft.) &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-1-2-hp-basement-sump-pump-and-starlink-high-performance-dish-home-office-setup.html" class="combo-pill">1/2 HP Basement Sump Pump + Starlink High-Performance Dish + Home Office Setup &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-1-2-hp-basement-sump-pump-and-1-2-hp-submersible-deep-well-water-pump.html" class="combo-pill">1/2 HP Basement Sump Pump + 1/2 HP Submersible Deep Well Water Pump &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-3-4-hp-heavy-duty-sump-pump-and-cpap-machine-with-heated-humidifier-tube.html" class="combo-pill">3/4 HP Heavy-Duty Sump Pump + CPAP Machine with Heated Humidifier & Tube &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-3-4-hp-heavy-duty-sump-pump-and-13-500-btu-rv-rooftop-air-conditioner.html" class="combo-pill">3/4 HP Heavy-Duty Sump Pump + 13,500 BTU RV Rooftop Air Conditioner &rarr;</a>
+<a href="https://store77.github.io/solar-generator-sizing-calculator/bundles/solar-generator-to-run-3-4-hp-heavy-duty-sump-pump-and-15-000-btu-rv-heat-pump-air-conditioner.html" class="combo-pill">3/4 HP Heavy-Duty Sump Pump + 15,000 BTU RV Heat Pump Air Conditioner &rarr;</a>
+
+        </div>
+    </main>
+    <footer>
+        <p>As an Amazon Associate, this site earns from qualifying purchases. Automatically updated daily with Open-Meteo Solar Irradiance & NOAA Grid Alert telemetry.</p>
+    </footer>
+    <script>
+        function filterLoads() {
+            const q = document.getElementById('searchBox').value.toLowerCase();
+            document.querySelectorAll('.item-card').forEach(card => {
+                card.style.display = card.innerText.toLowerCase().includes(q) ? '' : 'none';
+            });
+        }
+    </script>
+</body>
+</html>
