@@ -1,0 +1,1 @@
+# solar-generator-sizing-calculator
