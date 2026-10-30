@@ -12,8 +12,8 @@
     "gross_wh_required": 2550,
     "min_inverter_w": 1000,
     "solar_input_w": 900,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-28"
   },
   "1/2 HP Basement Sump Pump": {
@@ -29,8 +29,8 @@
     "gross_wh_required": 6200,
     "min_inverter_w": 1400,
     "solar_input_w": 1600,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-28"
   },
   "3/4 HP Heavy-Duty Sump Pump": {
@@ -46,8 +46,8 @@
     "gross_wh_required": 7650,
     "min_inverter_w": 1800,
     "solar_input_w": 1600,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-28"
   },
   "CPAP Machine with Heated Humidifier & Tube": {
@@ -63,8 +63,8 @@
     "gross_wh_required": 1400,
     "min_inverter_w": 1000,
     "solar_input_w": 500,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-28"
   },
   "13,500 BTU RV Rooftop Air Conditioner": {
@@ -80,8 +80,8 @@
     "gross_wh_required": 9200,
     "min_inverter_w": 1800,
     "solar_input_w": 1600,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-28"
   },
   "15,000 BTU RV Heat Pump Air Conditioner": {
@@ -97,8 +97,8 @@
     "gross_wh_required": 10550,
     "min_inverter_w": 2000,
     "solar_input_w": 1600,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-28"
   },
   "10,000 BTU Portable Dual-Hose Room Air Conditioner": {
@@ -114,8 +114,8 @@
     "gross_wh_required": 7200,
     "min_inverter_w": 1400,
     "solar_input_w": 1600,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-28"
   },
   "Deep Chest Freezer (15 Cu. Ft.)": {
@@ -131,8 +131,8 @@
     "gross_wh_required": 2650,
     "min_inverter_w": 1000,
     "solar_input_w": 900,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-28"
   },
   "Starlink High-Performance Dish + Home Office Setup": {
@@ -148,8 +148,8 @@
     "gross_wh_required": 2600,
     "min_inverter_w": 1000,
     "solar_input_w": 900,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-28"
   },
   "1/2 HP Submersible Deep Well Water Pump": {
@@ -165,8 +165,8 @@
     "gross_wh_required": 6950,
     "min_inverter_w": 1600,
     "solar_input_w": 1600,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-28"
   },
   "1,500W Ceramic Space Heater (Low/High Mode)": {
@@ -182,8 +182,8 @@
     "gross_wh_required": 7100,
     "min_inverter_w": 2000,
     "solar_input_w": 1600,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-29"
   },
   "Wood Pellet Grill & Smoker (Auger + Igniter)": {
@@ -199,8 +199,8 @@
     "gross_wh_required": 1200,
     "min_inverter_w": 1000,
     "solar_input_w": 400,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-29"
   },
   "Commercial Dual-Boiler Espresso Machine": {
@@ -216,8 +216,8 @@
     "gross_wh_required": 4550,
     "min_inverter_w": 2000,
     "solar_input_w": 1500,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-29"
   },
   "5-LPM Home Oxygen Concentrator": {
@@ -233,8 +233,8 @@
     "gross_wh_required": 6000,
     "min_inverter_w": 1000,
     "solar_input_w": 1600,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-29"
   },
   "Gas Furnace Blower Fan Motor (1/2 HP)": {
@@ -250,8 +250,8 @@
     "gross_wh_required": 9200,
     "min_inverter_w": 1000,
     "solar_input_w": 1600,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-29"
   },
   "Portable Induction Cooktop (1,800W Burner)": {
@@ -267,8 +267,8 @@
     "gross_wh_required": 2400,
     "min_inverter_w": 2400,
     "solar_input_w": 800,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-29"
   },
   "1,200W Inverter Microwave Oven": {
@@ -284,8 +284,8 @@
     "gross_wh_required": 1024,
     "min_inverter_w": 1800,
     "solar_input_w": 400,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-29"
   },
   "12V/120V Dual-Zone 75L Overland Fridge Freezer": {
@@ -301,8 +301,8 @@
     "gross_wh_required": 2150,
     "min_inverter_w": 1000,
     "solar_input_w": 800,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-29"
   },
   " Portable Jobsite Table Saw (15-Amp Motor)": {
@@ -318,8 +318,8 @@
     "gross_wh_required": 2850,
     "min_inverter_w": 2400,
     "solar_input_w": 1000,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-29"
   },
   "Level 1 / Portable EV Emergency Range Extender": {
@@ -335,8 +335,178 @@
     "gross_wh_required": 5650,
     "min_inverter_w": 1800,
     "solar_input_w": 1600,
-    "peak_sun_hours": 3.9,
-    "active_alerts": 317,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
     "updated_at": "2026-10-29"
+  },
+  "70-Pint Basement Dehumidifier": {
+    "name": "70-Pint Basement Dehumidifier",
+    "slug": "best-solar-generator-portable-power-station-for-70-pint-basement-dehumidifier",
+    "cat": "Moisture & Mold Prevention",
+    "run_w": 680,
+    "surge_w": 1400,
+    "duty_cycle_pct": 60,
+    "default_hrs": 12,
+    "plug": "NEMA 5-15 (120V)",
+    "effective_wh_per_hr": 408.0,
+    "gross_wh_required": 6400,
+    "min_inverter_w": 1000,
+    "solar_input_w": 1600,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
+    "updated_at": "2026-10-30"
+  },
+  "Saltwater Reef Aquarium Life-Support (Heater + Return Pump)": {
+    "name": "Saltwater Reef Aquarium Life-Support (Heater + Return Pump)",
+    "slug": "best-solar-generator-portable-power-station-for-saltwater-reef-aquarium-life-support-heater-return-pump",
+    "cat": "Aquarium Outage Protection",
+    "run_w": 350,
+    "surge_w": 650,
+    "duty_cycle_pct": 70,
+    "default_hrs": 24,
+    "plug": "UPS Pure Sine Wave",
+    "effective_wh_per_hr": 245.0,
+    "gross_wh_required": 7700,
+    "min_inverter_w": 1000,
+    "solar_input_w": 1600,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
+    "updated_at": "2026-10-30"
+  },
+  " Tankless Natural Gas Water Heater Igniter & Vent": {
+    "name": " Tankless Natural Gas Water Heater Igniter & Vent",
+    "slug": "best-solar-generator-portable-power-station-for-tankless-natural-gas-water-heater-igniter-vent",
+    "cat": "Home Hot Water Backup",
+    "run_w": 125,
+    "surge_w": 300,
+    "duty_cycle_pct": 30,
+    "default_hrs": 48,
+    "plug": "NEMA 5-15 UPS",
+    "effective_wh_per_hr": 37.5,
+    "gross_wh_required": 2400,
+    "min_inverter_w": 1000,
+    "solar_input_w": 900,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
+    "updated_at": "2026-10-30"
+  },
+  "Electric Hospital Bed + Alternating Pressure Mattress": {
+    "name": "Electric Hospital Bed + Alternating Pressure Mattress",
+    "slug": "best-solar-generator-portable-power-station-for-electric-hospital-bed-alternating-pressure-mattress",
+    "cat": "Home Healthcare Backup",
+    "run_w": 180,
+    "surge_w": 750,
+    "duty_cycle_pct": 50,
+    "default_hrs": 24,
+    "plug": "120V Pure Sine Wave",
+    "effective_wh_per_hr": 90.0,
+    "gross_wh_required": 2850,
+    "min_inverter_w": 1000,
+    "solar_input_w": 1100,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
+    "updated_at": "2026-10-30"
+  },
+  "Garage Door Opener (3/4 HP Belt Drive) + Home Security": {
+    "name": "Garage Door Opener (3/4 HP Belt Drive) + Home Security",
+    "slug": "best-solar-generator-portable-power-station-for-garage-door-opener-3-4-hp-belt-drive-home-security",
+    "cat": "Home Access & Security",
+    "run_w": 850,
+    "surge_w": 1700,
+    "duty_cycle_pct": 15,
+    "default_hrs": 24,
+    "plug": "NEMA 5-15 (120V)",
+    "effective_wh_per_hr": 127.5,
+    "gross_wh_required": 4000,
+    "min_inverter_w": 1200,
+    "solar_input_w": 1500,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
+    "updated_at": "2026-10-30"
+  },
+  " Pellet Stove Heating System (Auger + Convection Blower)": {
+    "name": " Pellet Stove Heating System (Auger + Convection Blower)",
+    "slug": "best-solar-generator-portable-power-station-for-pellet-stove-heating-system-auger-convection-blower",
+    "cat": "Winter Cabin Heating",
+    "run_w": 160,
+    "surge_w": 520,
+    "duty_cycle_pct": 75,
+    "default_hrs": 24,
+    "plug": "120V Pure Sine Wave",
+    "effective_wh_per_hr": 120.0,
+    "gross_wh_required": 3800,
+    "min_inverter_w": 1000,
+    "solar_input_w": 1400,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
+    "updated_at": "2026-10-30"
+  },
+  "4K Home Theater Projector + Gaming Desktop Rig": {
+    "name": "4K Home Theater Projector + Gaming Desktop Rig",
+    "slug": "best-solar-generator-portable-power-station-for-4k-home-theater-projector-gaming-desktop-rig",
+    "cat": "High-Draw Entertainment",
+    "run_w": 720,
+    "surge_w": 1100,
+    "duty_cycle_pct": 100,
+    "default_hrs": 5,
+    "plug": "120V Pure Sine UPS",
+    "effective_wh_per_hr": 720.0,
+    "gross_wh_required": 4750,
+    "min_inverter_w": 1000,
+    "solar_input_w": 1600,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
+    "updated_at": "2026-10-30"
+  },
+  "RV 30-Amp Shore Power Full Cabin Hookup": {
+    "name": "RV 30-Amp Shore Power Full Cabin Hookup",
+    "slug": "best-solar-generator-portable-power-station-for-rv-30-amp-shore-power-full-cabin-hookup",
+    "cat": "Boondocking & Dry Camping",
+    "run_w": 1600,
+    "surge_w": 3500,
+    "duty_cycle_pct": 50,
+    "default_hrs": 12,
+    "plug": "NEMA TT-30R",
+    "effective_wh_per_hr": 800.0,
+    "gross_wh_required": 12550,
+    "min_inverter_w": 2000,
+    "solar_input_w": 1600,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
+    "updated_at": "2026-10-30"
+  },
+  "240V Split-Phase Home Subpanel (Essential Circuits)": {
+    "name": "240V Split-Phase Home Subpanel (Essential Circuits)",
+    "slug": "best-solar-generator-portable-power-station-for-240v-split-phase-home-subpanel-essential-circuits",
+    "cat": "Whole-Home Partial Backup",
+    "run_w": 2400,
+    "surge_w": 5500,
+    "duty_cycle_pct": 45,
+    "default_hrs": 24,
+    "plug": "NEMA L14-30R (30A 240V)",
+    "effective_wh_per_hr": 1080.0,
+    "gross_wh_required": 33900,
+    "min_inverter_w": 3200,
+    "solar_input_w": 1600,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
+    "updated_at": "2026-10-30"
+  },
+  "Food Truck Commercial Prep Fridge + POS Terminal": {
+    "name": "Food Truck Commercial Prep Fridge + POS Terminal",
+    "slug": "best-solar-generator-portable-power-station-for-food-truck-commercial-prep-fridge-pos-terminal",
+    "cat": "Mobile Business Power",
+    "run_w": 580,
+    "surge_w": 1800,
+    "duty_cycle_pct": 55,
+    "default_hrs": 10,
+    "plug": "NEMA 5-15 / TT-30",
+    "effective_wh_per_hr": 319.0,
+    "gross_wh_required": 4200,
+    "min_inverter_w": 1000,
+    "solar_input_w": 1600,
+    "peak_sun_hours": 3.5,
+    "active_alerts": 397,
+    "updated_at": "2026-10-30"
   }
 }
