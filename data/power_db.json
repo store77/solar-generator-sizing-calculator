@@ -13,7 +13,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 900,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-28"
   },
   "1/2 HP Basement Sump Pump": {
@@ -30,7 +30,7 @@
     "min_inverter_w": 1400,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-28"
   },
   "3/4 HP Heavy-Duty Sump Pump": {
@@ -47,7 +47,7 @@
     "min_inverter_w": 1800,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-28"
   },
   "CPAP Machine with Heated Humidifier & Tube": {
@@ -64,7 +64,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 500,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-28"
   },
   "13,500 BTU RV Rooftop Air Conditioner": {
@@ -81,7 +81,7 @@
     "min_inverter_w": 1800,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-28"
   },
   "15,000 BTU RV Heat Pump Air Conditioner": {
@@ -98,7 +98,7 @@
     "min_inverter_w": 2000,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-28"
   },
   "10,000 BTU Portable Dual-Hose Room Air Conditioner": {
@@ -115,7 +115,7 @@
     "min_inverter_w": 1400,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-28"
   },
   "Deep Chest Freezer (15 Cu. Ft.)": {
@@ -132,7 +132,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 900,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-28"
   },
   "Starlink High-Performance Dish + Home Office Setup": {
@@ -149,7 +149,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 900,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-28"
   },
   "1/2 HP Submersible Deep Well Water Pump": {
@@ -166,7 +166,7 @@
     "min_inverter_w": 1600,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-28"
   },
   "1,500W Ceramic Space Heater (Low/High Mode)": {
@@ -183,7 +183,7 @@
     "min_inverter_w": 2000,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-29"
   },
   "Wood Pellet Grill & Smoker (Auger + Igniter)": {
@@ -200,7 +200,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 400,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-29"
   },
   "Commercial Dual-Boiler Espresso Machine": {
@@ -217,7 +217,7 @@
     "min_inverter_w": 2000,
     "solar_input_w": 1500,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-29"
   },
   "5-LPM Home Oxygen Concentrator": {
@@ -234,7 +234,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-29"
   },
   "Gas Furnace Blower Fan Motor (1/2 HP)": {
@@ -251,7 +251,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-29"
   },
   "Portable Induction Cooktop (1,800W Burner)": {
@@ -268,7 +268,7 @@
     "min_inverter_w": 2400,
     "solar_input_w": 800,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-29"
   },
   "1,200W Inverter Microwave Oven": {
@@ -285,7 +285,7 @@
     "min_inverter_w": 1800,
     "solar_input_w": 400,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-29"
   },
   "12V/120V Dual-Zone 75L Overland Fridge Freezer": {
@@ -302,7 +302,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 800,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-29"
   },
   " Portable Jobsite Table Saw (15-Amp Motor)": {
@@ -319,7 +319,7 @@
     "min_inverter_w": 2400,
     "solar_input_w": 1000,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-29"
   },
   "Level 1 / Portable EV Emergency Range Extender": {
@@ -336,7 +336,7 @@
     "min_inverter_w": 1800,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-29"
   },
   "70-Pint Basement Dehumidifier": {
@@ -353,7 +353,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-30"
   },
   "Saltwater Reef Aquarium Life-Support (Heater + Return Pump)": {
@@ -370,7 +370,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-30"
   },
   " Tankless Natural Gas Water Heater Igniter & Vent": {
@@ -387,7 +387,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 900,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-30"
   },
   "Electric Hospital Bed + Alternating Pressure Mattress": {
@@ -404,7 +404,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 1100,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-30"
   },
   "Garage Door Opener (3/4 HP Belt Drive) + Home Security": {
@@ -421,7 +421,7 @@
     "min_inverter_w": 1200,
     "solar_input_w": 1500,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-30"
   },
   " Pellet Stove Heating System (Auger + Convection Blower)": {
@@ -438,7 +438,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 1400,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-30"
   },
   "4K Home Theater Projector + Gaming Desktop Rig": {
@@ -455,7 +455,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-30"
   },
   "RV 30-Amp Shore Power Full Cabin Hookup": {
@@ -472,7 +472,7 @@
     "min_inverter_w": 2000,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-30"
   },
   "240V Split-Phase Home Subpanel (Essential Circuits)": {
@@ -489,7 +489,7 @@
     "min_inverter_w": 3200,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-30"
   },
   "Food Truck Commercial Prep Fridge + POS Terminal": {
@@ -506,7 +506,7 @@
     "min_inverter_w": 1000,
     "solar_input_w": 1600,
     "peak_sun_hours": 3.5,
-    "active_alerts": 397,
+    "active_alerts": 446,
     "updated_at": "2026-10-30"
   }
 }
